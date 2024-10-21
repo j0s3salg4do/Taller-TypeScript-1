@@ -1,4 +1,5 @@
 import { series } from "./data";
+import { Serie } from "./Serie";
 
 function displaySeries(): void {
   const tbody = document.getElementById("series-table-body")!;
@@ -19,6 +20,11 @@ function displayAverageSeasons(): void {
   const average = totalSeasons / series.length;
   const p = document.getElementById("average-seasons")!;
   p.innerText = `Promedio de temporadas: ${average.toFixed(2)}`;
+}
+
+function addSeries(newSerie: Serie): void {
+  series.push(newSerie);
+  displaySeries();  // Vuelve a mostrar la tabla actualizada
 }
 
 displaySeries();
