@@ -21,6 +21,5 @@ function displayAverageSeasons(): void {
   p.innerText = `Promedio de temporadas: ${average.toFixed(2)}`;
 }
 
-// Ejecutar funciones
 displaySeries();
 displayAverageSeasons();

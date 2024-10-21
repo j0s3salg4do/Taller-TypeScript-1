@@ -15,6 +15,5 @@ function displayAverageSeasons() {
     var p = document.getElementById("average-seasons");
     p.innerText = "Promedio de temporadas: ".concat(average.toFixed(2));
 }
-// Ejecutar funciones
 displaySeries();
 displayAverageSeasons();

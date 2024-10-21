@@ -1,19 +1,19 @@
 {
     "compilerOptions": {
-      "target": "es6",                       // Establece la versión de ECMAScript a la que deseas compilar
-      "module": "commonjs",                  // Especifica el sistema de módulos
-      "outDir": "./dist",                    // Carpeta de salida para los archivos compilados
-      "rootDir": "./",                        // Carpeta raíz del proyecto
-      "strict": true,                         // Habilita todas las comprobaciones de tipo
-      "esModuleInterop": true,                // Permite la interop de módulos ES
-      "skipLibCheck": true,                   // Omite la comprobación de tipos de archivos de declaración de bibliotecas
-      "forceConsistentCasingInFileNames": true // Asegura que el uso de mayúsculas y minúsculas en los nombres de archivo sea consistente
+      "target": "es6",                       
+      "module": "commonjs",                  
+      "outDir": "./dist",                    
+      "rootDir": "./",                        
+      "strict": true,                         
+      "esModuleInterop": true,                
+      "skipLibCheck": true,                   
+      "forceConsistentCasingInFileNames": true 
     },
     "include": [
-      "*.ts"                                  // Incluye todos los archivos .ts en la carpeta base
+      "*.ts"                                  
     ],
     "exclude": [
-      "node_modules"                          // Excluye la carpeta node_modules
+      "node_modules"                          
     ]
   }
   
